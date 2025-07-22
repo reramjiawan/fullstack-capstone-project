@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Link } from 'react';
 
 export default function Navbar() {
     return (
@@ -12,6 +12,9 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/app">Gifts</a> {/* Updated Link */}
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/app/search">Search</Link>
                     </li>
                 </ul>
             </div>
