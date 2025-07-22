@@ -1,10 +1,9 @@
 ---
 name: User Story
 about: This template defines a user story
-title: ''
-labels: ''
+title: ""
+labels: ""
 assignees: reramjiawan
-
 ---
 
 **As a** [role]
@@ -12,9 +11,11 @@ assignees: reramjiawan
 **So that** [benefit]
 
 ### Details and Assumptions
- * [document what you know]
+
+- [document what you know]
 
 ### Acceptance Criteria
+
 ```gherkin
 Given [some context]
 When [certain action is taken]
